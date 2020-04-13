@@ -1,0 +1,60 @@
+/* miniprogram/pages/set/set.wxss */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.pageHead {
+  width: 100vw;
+  height: 24vh;
+  background-color: rgb(98, 108, 245);
+  border-radius: 0 0 50rpx 50rpx;
+}
+
+.pageBody {
+  width: 100vw;
+  height: 74vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #fff;
+  width: 88vw;
+  height: 200rpx;
+  position: absolute;
+  top: 160rpx;
+  left: 45rpx;
+  border-radius: 30rpx;
+}
+
+.list1 {
+  width: 100vw;
+  height: 110rpx;
+  margin-top: 130rpx;
+  background-color: #fff;
+  line-height: 110rpx;
+  
+}
+
+.list2 {
+  width: 110vw;
+  height: 110rpx;
+  background-color: #fff;
+  line-height: 100rpx;
+  
+  border: solid;
+   border-color:rgb(243, 241, 241);
+}
+
+.list3 {
+  width: 100vw;
+  height: 110rpx;
+  background-color: #fff;
+  line-height: 110rpx;
+  border: solid;
+   border-color:rgb(243, 241, 241);
+}

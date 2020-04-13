@@ -1,0 +1,26 @@
+/* components/card/card.wxss */
+.card{
+  width:80vw;
+  height:160rpx;
+  background-color: rgb(252, 137, 162);
+  border-radius:20rpx;
+}
+.photo{
+  margin-left:40rpx;
+  margin-top:30rpx;
+  margin-right:30rpx;
+  width:105rpx;
+  height:105rpx;
+  float:left;
+  border-radius:10rpx;
+}
+.title{
+  font-size:40rpx;
+  padding-top:30rpx;
+  
+}
+.content{
+  margin-top:10rpx;
+  font-size:30rpx;
+  font-weight:100;
+}

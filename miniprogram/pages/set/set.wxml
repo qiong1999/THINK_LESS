@@ -1,0 +1,15 @@
+<!--miniprogram/pages/set/set.wxml-->
+<view class="container">
+<view class="pageHead">
+</view>
+<view class="pageBody">
+<view class="list1">资料</view>
+<view class="list2">设置</view>
+<view class="list3">反馈</view>
+</view>
+<card my-class="card" Src="../../images/shop.png">
+<view slot="title">用户昵称</view>
+<view slot="comment">使用提词器次数</view>
+</card>
+
+</view>

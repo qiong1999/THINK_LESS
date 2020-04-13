@@ -1,0 +1,77 @@
+.container{
+  width:100vw;
+  height:100vh;
+  background-color: rgb(98, 108, 245);
+}
+.pageHead{
+  width:100vw;
+  height:20vh;
+  background-color:rgb(98, 108, 245);
+}
+.pageBody{
+  width:100vw;
+  height:80vh;
+  background-color:aliceblue;
+  border-radius:50rpx 50rpx 0 0;
+  box-shadow:1rpx -1rpx 10rpx #8b8b8b;
+}
+.Title{
+  margin-top:10rpx;
+  margin-left:20rpx;
+  font-size:40rpx;
+  background-color:rgb(98, 108, 245);
+  font-weight:100;
+}
+.search{
+  background-color:aliceblue;
+  width:88vw;
+  height:70rpx;
+  border-radius:30rpx 30rpx 30rpx 30rpx;
+  margin-left:43rpx;
+  margin-top:75rpx;
+}
+.holder{
+  margin-left:50rpx;
+  font-weight: 100rpx;
+}
+.card1{
+  width:80vw;
+  height:160rpx;
+  background-color: rgb(252, 137, 162);
+  border-radius:20rpx;
+  color:aliceblue;
+  margin-left:75rpx;
+  margin-top:90rpx;
+}
+.card2{
+  width:80vw;
+  height:160rpx;
+  background-color: rgb(129, 127, 235);
+  border-radius:20rpx;
+  color:aliceblue;
+  margin-left:75rpx;
+  margin-top:30rpx;
+}
+.card3{
+  width:80vw;
+  height:160rpx;
+  background-color: rgb(236, 232, 247);
+  border-radius:20rpx;
+  color:rgb(60, 61, 61);
+  margin-left:75rpx;
+  margin-top:30rpx;
+}
+.label{
+  background-color:aliceblue;
+  width:99.5vw;
+  height:100rpx;
+  box-shadow:1rpx -4rpx 5rpx #dad9d9;
+  position:absolute;
+  bottom:0rpx;
+  display:flex;
+  flex-direction:row;
+}
+.label1{
+  padding-left:150rpx;
+  padding-right:150rpx;
+}

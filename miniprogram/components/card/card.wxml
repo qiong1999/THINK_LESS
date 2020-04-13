@@ -1,0 +1,10 @@
+<view class="my-class">
+  <image class="photo" src="{{Src}}" mode="aspectFit"></image>
+  <view class="title">
+    <slot name="title"></slot>
+  </view>
+  <view class="content">
+    <slot name="content"></slot>
+  </view>
+  
+</view>

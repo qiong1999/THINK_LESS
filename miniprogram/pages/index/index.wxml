@@ -1,0 +1,31 @@
+<view class="container">
+  <view class="pageHead">
+    <view class="Title">小程序名字</view>
+    <input class="search" placeholder="文本搜索" placeholder-class="holder">
+    </input>
+  </view>
+  <view class="pageBody">
+    <card my-class="card1" Src="../../images/shop.png">
+      <view slot="title">滚动式提词</view>
+      <view slot="content">声纹控制文字上下滚动</view>
+    </card>
+    <card my-class="card2" Src="../../images/shop.png">
+      <view slot="title">卡片式提词</view>
+      <view slot="content">声纹控制文字卡片翻转</view>
+    </card>
+    <card my-class="card3" Src="../../images/shop.png">
+      <view slot="title">弹幕式提词</view>
+      <view slot="content">声纹控制文字左右滑动</view>
+    </card>
+    <view class="label">
+      <label Value="主页" Src="../../images/page.jpg"></label>
+      <view class="label1">
+      <label Value="新建" Src="../../images/build.jpg"></label>
+      </view>
+      <view class="label2" bindtap="toSet">
+       <label Value="我的" Src="../../images/me.jpg"></label>
+       </view>
+    </view>
+      
+  </view>
+</view>

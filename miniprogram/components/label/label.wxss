@@ -1,0 +1,20 @@
+/* components/label/label.wxss */
+.label{
+  width:20vw;
+  height:100rpx;
+  display:flex;
+  flex-direction:column;
+  
+}
+.photo{
+  width:48rpx;
+  height:100rpx;
+  padding-left:53rpx;
+  margin-top:8rpx;
+}
+.word{
+  font-weight: 100;
+  font-size:35rpx;
+  margin-left:43rpx;
+  margin-top:5rpx;
+}

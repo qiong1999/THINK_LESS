@@ -1,0 +1,4 @@
+<view class="label">
+<image src="{{Src}}" class="photo"></image>
+<view class="word">{{Value}}</view>
+</view>
